@@ -1,6 +1,6 @@
 jQuery(document).ready(function () {
 
-    var base = "http://127.0.0.1:8000/";
+    var base = "http://127.0.0.1:8082/";
     var $state = jQuery('#state');
     var $finishesAt = jQuery('#remaining');
     var $door = jQuery('#door');
