@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Dishwasher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="error-offline">
+    Dishwasher is offline
+</div>
+<div id="error-unable">
+    action not possible
+</div>
+
+<table>
+    <tr>
+        <th>Device</th>
+        <td>Dishwasher</td>
+    </tr>
+    <tr>
+        <th>State</th>
+        <td id="state">loading</td>
+    </tr>
+    <tr>
+        <th>Door</th>
+        <td id="door">loading</td>
+    </tr>
+    <tr>
+        <th>Remaining</th>
+        <td id="remaining">loading</td>
+    </tr>
+    <tr>
+        <th>Action</th>
+        <td>
+            <button data-state="running">Start</button>
+            <button data-state="ready">Stop</button>
+            <button data-door="open">Open</button>
+            <button data-door="close">Close</button>
+        </td>
+    </tr>
+</table>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="main.js"></script>
+</body>

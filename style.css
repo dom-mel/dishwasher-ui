@@ -1,0 +1,4 @@
+#error-offline, #error-unable {
+    display: none;
+    color: red;
+}
